@@ -10,4 +10,4 @@ Originally inspired by an article about some Nine Inch Nails cover art that I re
 Portrait of the Author
 ----------------------
 
-![Portrait of the Author](docs/face-3e2f6c98-c342-4c1e-8b3a-fccca352fd41.jpeg)
+<img src="https://raw.githubusercontent.com/wjt/jpegmanifesto/master/docs/face-3e2f6c98-c342-4c1e-8b3a-fccca352fd41.jpeg" width=200 alt="Portrait of the Author">
