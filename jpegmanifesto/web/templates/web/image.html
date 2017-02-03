@@ -1,0 +1,21 @@
+{% extends "web/layout.html" %}
+{% block content %}
+<a href="{{ image.image.url }}">
+<img src="{{ image.image.url }}" width="{{ image.width }}" height="{{ image.height }}" class="victim">
+</a>
+
+{% comment %}
+<h2>Mangled</h2>
+{% endcomment %}
+
+{% for m in image.mangled_images.all %}
+<a href="{{ m.image.url }}">
+<img src="{{ m.image.url }}" width="{{ m.width }}" height="{{ m.height }}" class="victim">
+</a>
+{% endfor %}
+
+<form method="POST" action="{% url 'moar' image.public_id %}">
+    {% csrf_token %}
+    <input type="submit" value="MOAR" />
+</form>
+{% endblock %}

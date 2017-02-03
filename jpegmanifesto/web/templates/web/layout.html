@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>JPEG Manifesto</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'web/style.css' %}" />
+</head>
+<body>
+<h1><a href="{% url 'index' %}">JPEG Manifesto</a></h1>
+{% block content %}{% endblock %}
+</body>
+</html>

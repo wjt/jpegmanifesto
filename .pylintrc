@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+# Missing docstring
+disable=C0111
+# "Locally disabling ..."
+disable=I0011

@@ -1,0 +1,8 @@
+{% extends "web/layout.html" %}
+{% block content %}
+<form method="POST" action="{% url 'index' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Upload" />
+</form>
+{% endblock %}
